@@ -1,0 +1,81 @@
+/*
+Override CSS
+*/
+
+html{
+  height: 100%;
+}
+body{
+  position: relative;
+  min-height: 100%;
+  padding-bottom:50px;
+}
+
+.bg-light {
+  top: -20px;
+    background-color: #ffc107!important;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+.feature-img{
+  max-height: 200px;
+}
+.footer-bottom{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ffc107;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  height: 30px;
+}
+
+/*
+Product CSS
+*/
+.carousel-item{
+  background-color: #ffc107;
+}
+.carousel-control-next {
+    right: 0;
+    background-color: #ffc107;
+}
+.carousel-control-prev {
+    left: 0;
+    background-color: #ffc107;
+}
+
+/*
+CHILD CATEGORY LIST
+*/
+.child-row {
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+    background: #fff;
+}
+.child-row a.list-group-item{
+    border-left: 0px!important;
+}
+/*
+Navbar
+*/
+.mr-auto, mx-auto {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.hidden{
+  display: none;
+}
+.attention-component {
+    width: 100%;
+    padding: 20px;
+    max-width: 400px;
+    position: fixed;
+    top: 50;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}
